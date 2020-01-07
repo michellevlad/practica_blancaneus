@@ -1,0 +1,2 @@
+main.adb:45:20: warning: variable "enanosDurnmiendo" is not modified in loop body
+main.adb:45:20: warning: possible infinite loop

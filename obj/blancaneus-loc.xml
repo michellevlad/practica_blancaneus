@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/marianvlad/Desktop/blancaneus/blancaneus.gpr</vfs_project>
+      <vfs_file>/Users/marianvlad/Desktop/blancaneus/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/marianvlad/Desktop/blancaneus/blancaneus.gpr</vfs_project>
+      <vfs_file>/Users/marianvlad/Desktop/blancaneus/src/readwrite.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 13" >
+      <vfs_project>/Users/marianvlad/Desktop/blancaneus/blancaneus.gpr</vfs_project>
+      <vfs_file>/Users/marianvlad/Desktop/blancaneus/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/marianvlad/Desktop/blancaneus/blancaneus.gpr</vfs_project>
+      <vfs_file>/Users/marianvlad/Desktop/blancaneus/src/def_monitor.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/Users/marianvlad/Desktop/blancaneus/blancaneus.gpr</vfs_project>
+      <vfs_file>/Users/marianvlad/Desktop/blancaneus/src/def_monitor.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
