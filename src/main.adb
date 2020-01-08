@@ -1,3 +1,7 @@
+-- Practica 2: Blancaneus y los 7 enanitos
+-- Autores: Adrian Castellanos y Michelle Vlad
+-- https://youtu.be/fg_XMla_HOk
+
 with Text_Io; use  Text_Io;
 with def_mesa; use def_mesa;
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
@@ -63,7 +67,6 @@ procedure Main is
    end Enano;
 
    task body Enano is
-      sentado : boolean := false;
       My_Idx : integer;
    begin
       accept Start (Idx : in integer) do

@@ -30,7 +30,7 @@ RV MAX_TASK_ENTRIES=1
 RV MAX_TASKS=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U main%b		main.adb		2a525934 NE OO SU
+U main%b		main.adb		ae4244e5 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
@@ -76,7 +76,7 @@ D def_mesa.ads		20200107165750 42a388c5 def_mesa%s
 D interfac.ads		20190518041254 5ab55268 interfaces%s
 D i-c.ads		20190518041254 5421119b interfaces.c%s
 D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
-D main.adb		20200107165623 5f156932 main%b
+D main.adb		20200108092752 db0574e3 main%b
 D system.ads		20190518041255 085b6ffb system%s
 D s-atacco.ads		20190518041256 4c36d12f system.address_to_access_conversions%s
 D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
@@ -118,53 +118,52 @@ D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
 D text_io.ads		20190518041255 21b2c898 text_io%s
 G a e
-G c Z b b [main standard 5 11 none]
-G r s mesa [main standard 5 11 none] [mesaVIP def_mesa 3 4 none]
-G r l mesa [main standard 5 11 none] [mesaVDI def_mesa 3 4 none]
-G r k mesa [main standard 5 11 none] [mesaVDF def_mesa 3 4 none]
-G r o none [main standard 5 11 none] [sentarse def_mesa__mesa 5 13 none]
-G r o none [main standard 5 11 none] [levantarse def_mesa__mesa 6 13 none]
-G r p none [main standard 5 11 none] [dormirenano def_mesa__mesa 9 17 none]
-G r o none [main standard 5 11 none] [prepararcomida def_mesa__mesa 7 13 none]
-G r p none [main standard 5 11 none] [servircomida def_mesa__mesa 8 17 none]
-G r o none [main standard 5 11 none] [dormirblancaneus def_mesa__mesa 10 13 none]
+G c Z b b [main standard 8 11 none]
+G r s mesa [main standard 8 11 none] [mesaVIP def_mesa 3 4 none]
+G r l mesa [main standard 8 11 none] [mesaVDI def_mesa 3 4 none]
+G r k mesa [main standard 8 11 none] [mesaVDF def_mesa 3 4 none]
+G r o none [main standard 8 11 none] [sentarse def_mesa__mesa 5 13 none]
+G r o none [main standard 8 11 none] [levantarse def_mesa__mesa 6 13 none]
+G r p none [main standard 8 11 none] [dormirenano def_mesa__mesa 9 17 none]
+G r o none [main standard 8 11 none] [prepararcomida def_mesa__mesa 7 13 none]
+G r p none [main standard 8 11 none] [servircomida def_mesa__mesa 8 17 none]
+G r o none [main standard 8 11 none] [dormirblancaneus def_mesa__mesa 10 13 none]
 X 1 ada.ads
-16K9*Ada 20e8 21|3r6 3r33
+16K9*Ada 20e8 21|6r6 6r33
 X 11 a-string.ads
-16K13*Strings 35e16 21|3r10 3r37
+16K13*Strings 35e16 21|6r10 6r37
 X 13 a-strunb.ads
-82K21*Unbounded 756e26 21|3w18 3r45
+82K21*Unbounded 756e26 21|6w18 6r45
 X 15 a-textio.ads
-508U14*Put_Line 21|30s10 37s13 41s13 50s7 71s10 76s10 78s10 82s10 83s10 86s10
-. 94s7
+508U14*Put_Line 21|33s10 40s13 44s13 53s7 73s10 78s10 80s10 84s10 85s10 88s10
+. 96s7
 X 17 def_mesa.ads
-1K9*def_mesa 21e13 21|2w6 2r20
-3W19*Mesa 19e12 21|15r14
-5Y13 sentarse 21|81s18
-6Y13 levantarse 21|84s18
-7Y13 prepararComida 21|40s21
-8U17 servirComida 21|43s21
-9U17 dormirEnano 21|92s15
-10Y13 dormirBlancaneus 21|49s15
+1K9*def_mesa 21e13 21|5w6 5r20
+3W19*Mesa 19e12 21|18r14
+5Y13 sentarse 21|83s18
+6Y13 levantarse 21|86s18
+7Y13 prepararComida 21|43s21
+8U17 servirComida 21|46s21
+9U17 dormirEnano 21|94s15
+10Y13 dormirBlancaneus 21|52s15
 X 21 main.adb
-5U11*Main 5b11 109l5 109t9
-9i4 ENANOS{integer} 45r39 99r31 105r18
-10i4 enanosCasa{integer} 36r13 79m10 79r24 88m10 88r24
-11i4 enanosDurnmiendo{integer} 45r20 50r49 93m7 93r27 94r60
-15w4 monitor{17|3W19} 40r13 43r13 49r7 81r10 84r10 92r7
-22T14 Blancaneus 24l8 24e18 26b14 52l8 52t18 101r8
-23Y13 Start 29b14 31l11 31t16 104s6
-61T14 Enano 63l8 63e13 65b14 96l8 96t13 99r42
-62Y13 Start 62>20 69b14 72l11 72t16 106s15
-62i20 Idx{integer} 70r20
-66b7 sentado{boolean}
-67i7 My_Idx{integer} 70m10 71r40 76r28 78r28 82r28 83r28 86r35 94r25
-69i21 Idx{integer}
-75i11 i{integer}
-99A9 Enanitos(61T14)<integer> 100r9
-100a4 en{99A9} 106r7
-101t4 b{22T14} 104r4
-105i8 Idx{integer} 106r10 106r21
+8U11*Main 8b11 111l5 111t9
+12i4 ENANOS{integer} 48r39 101r31 107r18
+13i4 enanosCasa{integer} 39r13 81m10 81r24 90m10 90r24
+14i4 enanosDurnmiendo{integer} 48r20 53r49 95m7 95r27 96r60
+18w4 monitor{17|3W19} 43r13 46r13 52r7 83r10 86r10 94r7
+25T14 Blancaneus 27l8 27e18 29b14 55l8 55t18 103r8
+26Y13 Start 32b14 34l11 34t16 106s6
+64T14 Enano 66l8 66e13 68b14 98l8 98t13 101r42
+65Y13 Start 65>20 71b14 74l11 74t16 108s15
+65i20 Idx{integer} 72r20
+69i7 My_Idx{integer} 72m10 73r40 78r28 80r28 84r28 85r28 88r35 96r25
+71i21 Idx{integer}
+77i11 i{integer}
+101A9 Enanitos(64T14)<integer> 102r9
+102a4 en{101A9} 108r7
+103t4 b{25T14} 106r4
+107i8 Idx{integer} 108r10 108r21
 X 22 system.ads
 67M9*Address
 X 34 s-memory.ads
@@ -177,5 +176,5 @@ X 42 s-stausa.ads
 X 44 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
 X 61 text_io.ads
-24K9*Text_IO=24:29 21|1w6 1r20
+24K9*Text_IO=24:29 21|4w6 4r20
 

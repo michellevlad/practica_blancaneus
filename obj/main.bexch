@@ -1,18 +1,18 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-/Users/marianvlad/Desktop/blancaneus/blancaneus.gpr
+/Users/marianvlad/Desktop/blancaneus/practica_blancaneus/blancaneus.gpr
 20200105195401
 [BOUND OBJECT FILES]
-/Users/marianvlad/Desktop/blancaneus/obj/def_mesa.o
-/Users/marianvlad/Desktop/blancaneus/obj/main.o
+/Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/def_mesa.o
+/Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--L/Users/marianvlad/Desktop/blancaneus/obj/
--L/Users/marianvlad/Desktop/blancaneus/obj/
+-L/Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/
+-L/Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/
 -L/users/marianvlad/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/
 -static
 /users/marianvlad/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/libgnarl.a

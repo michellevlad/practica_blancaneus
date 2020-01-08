@@ -320,10 +320,10 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /Users/marianvlad/Desktop/blancaneus/obj/def_mesa.o
-   --   /Users/marianvlad/Desktop/blancaneus/obj/main.o
-   --   -L/Users/marianvlad/Desktop/blancaneus/obj/
-   --   -L/Users/marianvlad/Desktop/blancaneus/obj/
+   --   /Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/def_mesa.o
+   --   /Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/main.o
+   --   -L/Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/
+   --   -L/Users/marianvlad/Desktop/blancaneus/practica_blancaneus/obj/
    --   -L/users/marianvlad/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/
    --   -static
    --   -lgnarl
